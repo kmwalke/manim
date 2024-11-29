@@ -1,1 +1,1 @@
-docker run --rm -it -v "/home/kent/sites/arctic:/manim" manimcommunity/manim:stable manim -qm $1 $2
+docker run --rm -it -v "/home/kent/sites/arctic:/manim" manimcommunity/manim:stable manim "$@"
